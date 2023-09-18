@@ -19,14 +19,7 @@ public class CustomerServiceImpl implements CustomerService {
 
     @Override
     public Customer addCustomer(Customer customer) {
-        Optional<Customer> cus = customerDAO.findById(customer.getCustomerId());
-        if (cus.isPresent())
-        {
-            throw new CustomerException("Customer Already Exit!");
-        }
-        else {
-            return customerDAO.save(customer);
-        }
+        return customerDAO.save(customer);
     }
     public Customer removeCustomer(Integer id) {
         Optional<Customer> cus = customerDAO.findById(id);
@@ -50,6 +43,7 @@ public class CustomerServiceImpl implements CustomerService {
             customer.setAge(customers.getAge());
             customer.setAddress(customers.getAddress());
             customer.setMobileNumber(customers.getMobileNumber());
+            customerDAO.save(customer);
             return customer;
         }
         else {
