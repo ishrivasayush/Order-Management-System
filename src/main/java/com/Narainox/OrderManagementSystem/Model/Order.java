@@ -15,6 +15,7 @@ public class Order {
     private Integer orderId;
     private LocalDateTime orderDate;
 
-    @OneToMany
+    @OneToMany(mappedBy="order")
     private List<Product> items;
+
 }

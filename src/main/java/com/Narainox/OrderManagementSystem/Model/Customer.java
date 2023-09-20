@@ -14,6 +14,5 @@ public class Customer {
     private String mobileNumber;
     private String address;
 
-    @OneToMany
-    private Order order;
+
 }

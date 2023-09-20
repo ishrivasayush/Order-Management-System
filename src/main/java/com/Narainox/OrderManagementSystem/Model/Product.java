@@ -1,9 +1,6 @@
 package com.Narainox.OrderManagementSystem.Model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
@@ -14,4 +11,8 @@ public class Product {
     private Integer productId;
     private String name;
     private Integer price;
+
+    @ManyToOne
+    @JoinColumn(name = "orderID")
+    Order order;
 }
