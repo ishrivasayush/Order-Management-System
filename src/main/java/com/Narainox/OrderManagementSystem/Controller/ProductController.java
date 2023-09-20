@@ -43,7 +43,7 @@ public class ProductController {
         return new ResponseEntity<>(productService.viewAllProduct(), HttpStatus.FOUND);
     }
 
-    @PutMapping("/update")
+    @PutMapping("/update/{productId}")
     public ResponseEntity<Product> updateProduct(@RequestBody Product product,@PathVariable Integer productId)
     {
         return new ResponseEntity<>(productService.updateProduct(product,productId),HttpStatus.OK);

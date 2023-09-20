@@ -13,4 +13,7 @@ public class Customer {
     private Integer age;
     private String mobileNumber;
     private String address;
+
+    @OneToMany
+    private Order order;
 }
