@@ -79,22 +79,32 @@ Get Customer
 
 ![image](https://github.com/ishrivasayush/Order-Management-System/assets/103355440/33898493-3ede-4b1a-80f5-c30419f810aa)
 
+
 # Product Handlers
 
 Create Product
 
+![image](https://github.com/ishrivasayush/Order-Management-System/assets/103355440/1f24234b-fe1f-4032-a96a-db3602127b61)
 
 
 Update Product
 
+![image](https://github.com/ishrivasayush/Order-Management-System/assets/103355440/1d70f221-5314-45ab-8e82-15f28f9e98d5)
+
 
 Delete Product
+
+![image](https://github.com/ishrivasayush/Order-Management-System/assets/103355440/abf67a99-007f-4271-80e0-10f2a9eb784e)
 
 
 View Product
 
+![image](https://github.com/ishrivasayush/Order-Management-System/assets/103355440/c32ec5a0-cf4d-42d2-b4d2-781e181693fb)
+
 
 View All Product
+
+![image](https://github.com/ishrivasayush/Order-Management-System/assets/103355440/52d56695-5c81-480b-a84d-43a41a5627e5)
 
 
 
